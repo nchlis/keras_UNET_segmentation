@@ -5,7 +5,7 @@ This repository provides a keras implementation of a [UNET](https://arxiv.org/ab
 
 ## Data: we will use the C. Elegans data available from the [Broad Bioimage Benchmark Collection](http://localhost:8888/tree/Documents/PhD/Py_files/github_repos/keras_UNET_segmentation)
 
-- [Input images](https://data.broadinstitute.org/bbbc/BBBC010/BBBC010_v2_images.zip): download and extract into ./data, then delete the '\_' within BBBC010_v2_images. Each input image corresponds to two input channels (Brightfield/GFP). Each channel corresponds to a separate grayscale image.
+- [Input images](https://data.broadinstitute.org/bbbc/BBBC010/BBBC010_v2_images.zip): download and extract into ./data, then delete the '\_MACOSX' subfolder within BBBC010_v2_images. Each input image corresponds to two input channels (Brightfield/GFP). Each channel corresponds to a separate grayscale image.
 - [Target masks](https://data.broadinstitute.org/bbbc/BBBC010/BBBC010_v1_foreground.zip): download and extract into ./data
 
 The goal is to predict the segmentation mask of each image, based on the two input channels. An example image is shown below:
