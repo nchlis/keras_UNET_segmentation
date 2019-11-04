@@ -5,7 +5,7 @@ This repository provides a keras implementation of a [UNET](https://arxiv.org/ab
 
 ## Corresponding blog post:
 
-The results presented in this repository are explained in detail in this [blog post]().
+The results presented in this repository are explained in detail in this [blog post](https://nchlis.github.io/2019_10_30/page.html).
 
 ## Data: we will use the C. Elegans data available from the [Broad Bioimage Benchmark Collection](https://data.broadinstitute.org/bbbc/BBBC010/)
 
