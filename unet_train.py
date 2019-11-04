@@ -242,7 +242,8 @@ d0=BatchNormalization(axis=bnorm_axis)(d0)
 d0=Activation('relu')(d0)
 
 #output
-out_class = Dense(1)(d0)
+#out_class = Dense(1)(d0)
+out_class = Conv2D(1, (1, 1), padding='same')(d0)
 out_class = Activation('sigmoid',name='output')(out_class)
 
 #create and compile the model
